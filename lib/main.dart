@@ -24,10 +24,10 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  PageController _pageController;
+  late PageController _pageController;
 
   int selectedItem = 0;
-  double itemSize;
+  late double itemSize;
 
   List items = [
     MenuItem(x: 0, name: 'rive_tutorial_phone', color: Colors.blueAccent),

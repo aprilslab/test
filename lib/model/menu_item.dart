@@ -4,5 +4,5 @@ class MenuItem {
   final String name;
   final int x;
   final Color color;
-  MenuItem({this.name, this.x, this.color});
+  MenuItem({required this.name, required this.x, required this.color});
 }
